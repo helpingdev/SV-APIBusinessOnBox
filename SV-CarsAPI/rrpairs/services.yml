@@ -9,16 +9,9 @@ service:
         listenport: '19001'
       targetedVSE: VSE
       
-    - name: search_client_2
-      group: cars
-      workingFolder: ./search_client
+    - name: getAdress
+      group: demo
+      workingFolder: ./getAddress
       configuration:
         listenport: '19009'
-      targetedVSE: VSE
-      
-    - name: search_client_3
-      group: cars
-      workingFolder: ./search_client
-      configuration:
-        listenport: '19019'
       targetedVSE: VSE
