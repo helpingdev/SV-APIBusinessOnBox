@@ -3,22 +3,22 @@
 definition: "./vrs_template.xml"
 service:
     - name: search_client
-      group: demo
+      group: cars
       workingFolder: ./search_client
       configuration:
-        listenport: '18001'
+        listenport: '19001'
       targetedVSE: VSE
       
     - name: search_client_2
-      group: demo
+      group: cars
       workingFolder: ./search_client
       configuration:
-        listenport: '18009'
+        listenport: '19009'
       targetedVSE: VSE
       
     - name: search_client_3
-      group: demo
+      group: cars
       workingFolder: ./search_client
       configuration:
-        listenport: '18019'
+        listenport: '19019'
       targetedVSE: VSE
