@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<workspace>${project.basedir}/workspace</workspace>
+		<workspace>${project.basedir}/rrpairs</workspace>
 		<services.definition>${workspace}/services.yml</services.definition>
 	</properties>
 
