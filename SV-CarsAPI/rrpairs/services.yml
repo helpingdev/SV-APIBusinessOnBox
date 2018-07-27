@@ -8,10 +8,3 @@ service:
       configuration:
         listenport: '19001'
       targetedVSE: VSE
-      
-    - name: getAdress
-      group: demo
-      workingFolder: ./getAddress
-      configuration:
-        listenport: '19009'
-      targetedVSE: VSE
