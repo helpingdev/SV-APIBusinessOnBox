@@ -14,3 +14,17 @@ service:
       configuration:
         listenport: '19002'
       targetedVSE: VSE
+    - name: test
+      group: cars
+      workingFolder: ./msss
+      type: rawtraffic
+      configuration:
+        listenport: '19002'
+      targetedVSE: VSE
+    - name: getAddress2
+      group: cars
+      workingFolder: ./getAddress2
+      type: swagger
+      configuration:
+        listenport: '19002'
+      targetedVSE: VSE
