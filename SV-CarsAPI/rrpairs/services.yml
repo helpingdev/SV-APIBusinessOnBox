@@ -9,16 +9,3 @@ service:
       configuration:
         listenport: '7001'
       targetedVSE: VSE
-    - name: getAdress
-      group: cars
-      workingFolder: ./getAddress
-      configuration:
-        listenport: '19002'
-      targetedVSE: VSE
-    - name: getAddress2
-      group: cars
-      workingFolder: ./getAddress2
-      type: swagger
-      configuration:
-        listenport: '19002'
-      targetedVSE: VSE
