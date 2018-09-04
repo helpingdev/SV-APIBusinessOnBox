@@ -2,22 +2,16 @@
 ---
 definition: "./vrs_template.xml"
 service:
-    - name: search_client
+    - name: cars
       group: cars
-      workingFolder: ./search_client
+      definition: "./car.vrs"
+      workingFolder: ./cars
       configuration:
-        listenport: '19001'
+        listenport: '7001'
       targetedVSE: VSE
     - name: getAdress
       group: cars
       workingFolder: ./getAddress
-      configuration:
-        listenport: '19002'
-      targetedVSE: VSE
-    - name: test
-      group: cars
-      workingFolder: ./msss
-      type: rawtraffic
       configuration:
         listenport: '19002'
       targetedVSE: VSE
