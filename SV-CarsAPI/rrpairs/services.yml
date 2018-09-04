@@ -4,7 +4,7 @@ definition: "./vrs_template.xml"
 service:
     - name: cars
       group: cars
-      definition: "./car.vrs"
+      definition: "./cars.vrs"
       workingFolder: ./cars
       configuration:
         listenport: '7001'
