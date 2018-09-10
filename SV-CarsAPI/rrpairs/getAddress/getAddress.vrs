@@ -25,6 +25,7 @@
 		<targetPort>$targetPort</targetPort>
 <useGateway>true</useGateway>
 <hostHeaderPassThrough>false</hostHeaderPassThrough>
-<ssl toClient="false" sslClientAuthType="none" toServer="false"/><basePath>/inventory</basePath>
+<ssl toClient="false" sslClientAuthType="none" toServer="false"/>
+<basePath></basePath>
 </Protocol>
 </RecordingSession>
