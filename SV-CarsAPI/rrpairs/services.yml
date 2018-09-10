@@ -9,7 +9,7 @@ service:
       configuration:
         listenport: '7001'
       targetedVSE: 
-      - VSE
+      - vse-perf
     - name: GetAdress
       group: adress
       definition: "./getAddress/getAddress.vrs"
@@ -17,4 +17,4 @@ service:
       configuration:
         listenport: '7003'
       targetedVSE: 
-      - vse-perf
+      - VSE
