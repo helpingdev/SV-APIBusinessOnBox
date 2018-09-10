@@ -1,20 +1,23 @@
 # Details of a services
 ---
 definition: "./vrs_template.xml"
-service:
+services:
     - name: cars
       group: cars
-      definition: "./cars/cars.vrs"
+      definition: "./cars.vrs"
       workingFolder: ./cars
+      capacity: 2
+      thinkScale: 100
+      executionMode: "LIVE"
       configuration:
         listenport: '7001'
       targetedVSE: 
-      - vse-perf
-    - name: GetAdress
-      group: adress
-      definition: "./getAddress/getAddress.vrs"
-      workingFolder: ./getAddress
+      - VSE
+    - name: cars2
+      group: cars
+      definition: "./cars.vrs"
+      workingFolder: ./cars
       configuration:
-        listenport: '7003'
+        listenport: '7001'
       targetedVSE: 
       - VSE
