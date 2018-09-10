@@ -28,8 +28,8 @@
 		<plugins>
 			<plugin>
 				<groupId>com.ca.devtest.sv.devtools</groupId>
-				<artifactId>svascode-maven-plugin</artifactId>
-				<version>0.0.4-SNAPSHOT</version>
+<artifactId>svascode-maven-plugin</artifactId>
+<version>0.0.4-SNAPSHOT</version>
 				<configuration>
 					<registryHostName>localhost</registryHostName>
 					<workspace>${workspace}</workspace>
