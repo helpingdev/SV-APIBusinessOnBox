@@ -4,7 +4,7 @@ definition: "./vrs_template.xml"
 service:
     - name: cars
       group: cars
-      definition: "./cars.vrs"
+      definition: "./cars/cars.vrs"
       workingFolder: ./cars
       configuration:
         listenport: '7001'
@@ -12,6 +12,7 @@ service:
       - VSE
     - name: GetAdress
       group: adress
+      definition: "./getAddress/getAddress.vrs"
       workingFolder: ./getAddress
       configuration:
         listenport: '7003'
