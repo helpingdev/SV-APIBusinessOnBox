@@ -6,9 +6,6 @@ services:
       group: cars
       definition: "./cars/cars.vrs"
       workingFolder: ./cars
-      capacity: 2
-      thinkScale: 100
-      executionMode: "LIVE"
       configuration:
         listenport: '7001'
       targetedVSE: 
