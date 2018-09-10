@@ -8,4 +8,5 @@ service:
       workingFolder: ./cars
       configuration:
         listenport: '7001'
-      targetedVSE: VSE
+      targetedVSE: 
+      - VSE
