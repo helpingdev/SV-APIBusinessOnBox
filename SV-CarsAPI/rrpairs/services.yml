@@ -10,3 +10,10 @@ service:
         listenport: '7001'
       targetedVSE: 
       - VSE
+    - name: GetAdress
+      group: adress
+      workingFolder: ./cars
+      configuration:
+        listenport: '7003'
+      targetedVSE: 
+      - vse-perf
