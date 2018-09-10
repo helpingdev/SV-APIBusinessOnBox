@@ -12,7 +12,7 @@ service:
       - VSE
     - name: GetAdress
       group: adress
-      workingFolder: ./cars
+      workingFolder: ./getAddress
       configuration:
         listenport: '7003'
       targetedVSE: 
