@@ -7,6 +7,6 @@ services:
       definition: "./cars/cars.vrs"
       workingFolder: ./cars
       configuration:
-        listenport: '7001'
+        listenport: '7901'
       targetedVSE: 
       - vse-perf
