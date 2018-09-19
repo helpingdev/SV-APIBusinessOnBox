@@ -10,6 +10,14 @@ services:
         listenport: '7901'
       targetedVSE: 
       - VSE
+    - name: carsV2
+      group: carsV2
+      definition: "./carsV2/cars.vrs"
+      workingFolder: ./cars
+      configuration:
+        listenport: '7902'
+      targetedVSE: 
+      - VSE      
     - name: getAddress
       group: getAddress
       definition: "./getAddress/getAddress.vrs"
