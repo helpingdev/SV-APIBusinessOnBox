@@ -9,4 +9,4 @@ services:
       configuration:
         listenport: '7901'
       targetedVSE: 
-      - vse-perf
+      - VSE
