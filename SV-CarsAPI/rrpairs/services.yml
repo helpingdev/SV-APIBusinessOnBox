@@ -10,3 +10,11 @@ services:
         listenport: '7901'
       targetedVSE: 
       - VSE
+    - name: getAddress
+      group: getAddress
+      definition: "./getAddress/getAddress.vrs"
+      workingFolder: ./getAddress
+      configuration:
+        listenport: '7902'
+      targetedVSE: 
+      - VSE
