@@ -26,6 +26,6 @@
 <useGateway>true</useGateway>
 <hostHeaderPassThrough>false</hostHeaderPassThrough>
 <ssl toClient="false" sslClientAuthType="none" toServer="false"/>
-<basePath>/user/getAdress</basePath>
+<basePath>/user/getAddress</basePath>
 </Protocol>
 </RecordingSession>
