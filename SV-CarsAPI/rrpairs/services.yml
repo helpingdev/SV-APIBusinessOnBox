@@ -9,7 +9,7 @@ services:
       configuration:
         listenport: '7901'
       targetedVSE: 
-      - VSE
+      - vse-perf
     - name: carsV2
       group: carsV2
       definition: "./carsV2/cars.vrs"
@@ -17,7 +17,7 @@ services:
       configuration:
         listenport: '7902'
       targetedVSE: 
-      - VSE      
+      - vse-perf      
     - name: getAddress
       group: getAddress
       definition: "./getAddress/getAddress.vrs"
@@ -25,4 +25,4 @@ services:
       configuration:
         listenport: '7902'
       targetedVSE: 
-      - VSE
+      - vse-perf
