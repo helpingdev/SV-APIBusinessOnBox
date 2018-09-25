@@ -4,25 +4,12 @@ definition: "./vrs_template.xml"
 services:
     - name: cars
       group: cars
+      capacity: 2
+      thinkScale: 200
+      executionMode: "EFFICIENT"
       definition: "./cars/cars.vrs"
       workingFolder: ./cars
       configuration:
         listenport: '7901'
-      targetedVSE: 
-      - vse-perf
-    - name: carsV2
-      group: carsV2
-      definition: "./carsV2/cars.vrs"
-      workingFolder: ./cars
-      configuration:
-        listenport: '7902'
-      targetedVSE: 
-      - vse-perf      
-    - name: getAddress
-      group: getAddress
-      definition: "./getAddress/getAddress.vrs"
-      workingFolder: ./getAddress
-      configuration:
-        listenport: '7902'
       targetedVSE: 
       - vse-perf
