@@ -1,0 +1,657 @@
+2018-09-26 14:24:24,941 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-09-26 14:24:24,960 INFO o.a.j.JMeter: Loading user properties from: /Users/gaspa03/.bzt/jmeter-taurus/4.0/bin/user.properties
+2018-09-26 14:24:24,961 INFO o.a.j.JMeter: Loading system properties from: /Users/gaspa03/.bzt/jmeter-taurus/4.0/bin/system.properties
+2018-09-26 14:24:24,961 INFO o.a.j.JMeter: Setting System properties from file: /Users/gaspa03/git/SV-APIBusinessOnBox/SV-CarsAPI/bzt/2018-09-26_14-24-19.159631/system.properties
+2018-09-26 14:24:24,966 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-09-26 14:24:24,966 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-09-26 14:24:24,966 INFO o.a.j.JMeter: java.version=1.8.0_92
+2018-09-26 14:24:24,966 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-09-26 14:24:24,966 INFO o.a.j.JMeter: os.name=Mac OS X
+2018-09-26 14:24:24,966 INFO o.a.j.JMeter: os.arch=x86_64
+2018-09-26 14:24:24,966 INFO o.a.j.JMeter: os.version=10.13.6
+2018-09-26 14:24:24,966 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-09-26 14:24:24,967 INFO o.a.j.JMeter: Max memory     =3817865216
+2018-09-26 14:24:24,967 INFO o.a.j.JMeter: Available Processors =8
+2018-09-26 14:24:24,970 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-09-26 14:24:24,970 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-09-26 14:24:24,970 INFO o.a.j.JMeter: JMeterHome=/Users/gaspa03/.bzt/jmeter-taurus/4.0
+2018-09-26 14:24:24,970 INFO o.a.j.JMeter: user.dir  =/Users/gaspa03/git/SV-APIBusinessOnBox/SV-CarsAPI/bzt
+2018-09-26 14:24:24,970 INFO o.a.j.JMeter: PWD       =/Users/gaspa03/git/SV-APIBusinessOnBox/SV-CarsAPI/bzt
+2018-09-26 14:24:24,973 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: gaspa03mac FullName: localhost
+2018-09-26 14:24:24,973 INFO o.a.j.JMeter: user.classpath=/Users/gaspa03/git/SV-APIBusinessOnBox/SV-CarsAPI/bzt/2018-09-26_14-24-19.159631:/Users/gaspa03/git/SV-APIBusinessOnBox/SV-CarsAPI/bzt/2018-09-26_14-24-19.159631
+2018-09-26 14:24:24,973 INFO o.a.j.JMeter: Adding to classpath and loader: /Users/gaspa03/git/SV-APIBusinessOnBox/SV-CarsAPI/bzt/2018-09-26_14-24-19.159631
+2018-09-26 14:24:24,974 INFO o.a.j.JMeter: Adding to classpath and loader: /Users/gaspa03/git/SV-APIBusinessOnBox/SV-CarsAPI/bzt/2018-09-26_14-24-19.159631
+2018-09-26 14:24:24,977 INFO o.a.j.s.FileServer: Default base='/Users/gaspa03/git/SV-APIBusinessOnBox/SV-CarsAPI/bzt'
+2018-09-26 14:24:24,981 INFO o.a.j.s.FileServer: Set new base='/Users/gaspa03/git/SV-APIBusinessOnBox/SV-CarsAPI/bzt/2018-09-26_14-24-19.159631'
+2018-09-26 14:24:25,107 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-09-26 14:24:25,124 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-09-26 14:24:25,129 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-09-26 14:24:25,135 INFO o.a.j.s.SaveService: Loading file: /Users/gaspa03/git/SV-APIBusinessOnBox/SV-CarsAPI/bzt/2018-09-26_14-24-19.159631/modified_requests.jmx
+2018-09-26 14:24:25,187 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2018-09-26 14:24:25,189 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2018-09-26 14:24:25,202 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-26 14:24:25,202 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-26 14:24:25,202 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-26 14:24:25,203 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-09-26 14:24:25,203 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-09-26 14:24:25,203 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-09-26 14:24:25,231 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-09-26 14:24:25,231 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-09-26 14:24:25,231 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-09-26 14:24:25,234 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-09-26 14:24:25,235 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-09-26 14:24:25,575 INFO o.a.j.JMeter: Running test (1537968265575)
+2018-09-26 14:24:25,634 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : carsPerf
+2018-09-26 14:24:25,634 INFO o.a.j.e.StandardJMeterEngine: Starting 200 threads for group carsPerf.
+2018-09-26 14:24:25,635 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-09-26 14:24:25,638 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-09-26 14:24:25,639 INFO c.b.j.t.c.ConcurrencyThreadStarter: Start supplying threads
+2018-09-26 14:24:25,720 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-09-26 14:24:25,720 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2018-09-26 14:24:25,720 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-09-26 14:24:25,720 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-09-26 14:24:25,721 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-1
+2018-09-26 14:24:25,737 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = gaspa03mac
+2018-09-26 14:24:25,740 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-09-26 14:24:26,722 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-2
+2018-09-26 14:24:26,724 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-3
+2018-09-26 14:24:26,724 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-4
+2018-09-26 14:24:26,726 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-5
+2018-09-26 14:24:26,727 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-6
+2018-09-26 14:24:26,728 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-7
+2018-09-26 14:24:27,732 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-8
+2018-09-26 14:24:27,733 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-9
+2018-09-26 14:24:27,734 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-10
+2018-09-26 14:24:27,735 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-11
+2018-09-26 14:24:27,736 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-12
+2018-09-26 14:24:27,737 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-13
+2018-09-26 14:24:27,738 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-14
+2018-09-26 14:24:28,744 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-15
+2018-09-26 14:24:28,748 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-16
+2018-09-26 14:24:28,749 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-17
+2018-09-26 14:24:28,763 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-21
+2018-09-26 14:24:28,764 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-20
+2018-09-26 14:24:28,763 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-18
+2018-09-26 14:24:28,763 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-19
+2018-09-26 14:24:29,764 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-22
+2018-09-26 14:24:29,764 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-23
+2018-09-26 14:24:29,765 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-24
+2018-09-26 14:24:29,766 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-25
+2018-09-26 14:24:29,766 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-26
+2018-09-26 14:24:29,767 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-27
+2018-09-26 14:24:29,768 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-28
+2018-09-26 14:24:30,774 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-29
+2018-09-26 14:24:30,774 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-30
+2018-09-26 14:24:30,775 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-31
+2018-09-26 14:24:30,775 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-32
+2018-09-26 14:24:30,776 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-33
+2018-09-26 14:24:30,777 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-34
+2018-09-26 14:24:31,781 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-35
+2018-09-26 14:24:31,781 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-36
+2018-09-26 14:24:31,781 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-37
+2018-09-26 14:24:31,782 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-38
+2018-09-26 14:24:31,784 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-39
+2018-09-26 14:24:31,784 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-40
+2018-09-26 14:24:31,785 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-41
+2018-09-26 14:24:32,791 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-42
+2018-09-26 14:24:32,791 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-43
+2018-09-26 14:24:32,792 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-44
+2018-09-26 14:24:32,792 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-45
+2018-09-26 14:24:32,792 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-46
+2018-09-26 14:24:32,793 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-47
+2018-09-26 14:24:32,793 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-48
+2018-09-26 14:24:33,797 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-49
+2018-09-26 14:24:33,798 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-50
+2018-09-26 14:24:33,798 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-51
+2018-09-26 14:24:33,798 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-52
+2018-09-26 14:24:33,799 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-53
+2018-09-26 14:24:33,799 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-54
+2018-09-26 14:24:34,802 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-55
+2018-09-26 14:24:34,803 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-56
+2018-09-26 14:24:34,803 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-57
+2018-09-26 14:24:34,803 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-58
+2018-09-26 14:24:34,804 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-59
+2018-09-26 14:24:34,804 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-60
+2018-09-26 14:24:34,804 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-61
+2018-09-26 14:24:35,809 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-62
+2018-09-26 14:24:35,810 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-63
+2018-09-26 14:24:35,810 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-64
+2018-09-26 14:24:35,811 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-65
+2018-09-26 14:24:35,811 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-66
+2018-09-26 14:24:35,811 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-67
+2018-09-26 14:24:35,812 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-68
+2018-09-26 14:24:36,813 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-69
+2018-09-26 14:24:36,814 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-70
+2018-09-26 14:24:36,814 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-71
+2018-09-26 14:24:36,814 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-72
+2018-09-26 14:24:36,815 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-73
+2018-09-26 14:24:36,816 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-74
+2018-09-26 14:24:36,816 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-75
+2018-09-26 14:24:37,822 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-76
+2018-09-26 14:24:37,822 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-77
+2018-09-26 14:24:37,822 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-78
+2018-09-26 14:24:37,823 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-79
+2018-09-26 14:24:37,823 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-80
+2018-09-26 14:24:37,824 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-81
+2018-09-26 14:24:38,829 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-82
+2018-09-26 14:24:38,829 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-83
+2018-09-26 14:24:38,830 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-84
+2018-09-26 14:24:38,830 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-85
+2018-09-26 14:24:38,831 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-86
+2018-09-26 14:24:38,831 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-87
+2018-09-26 14:24:38,832 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-88
+2018-09-26 14:24:39,833 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-89
+2018-09-26 14:24:39,833 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-90
+2018-09-26 14:24:39,834 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-91
+2018-09-26 14:24:39,834 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-92
+2018-09-26 14:24:39,834 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-93
+2018-09-26 14:24:39,835 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-94
+2018-09-26 14:24:39,835 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-95
+2018-09-26 14:24:40,840 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-96
+2018-09-26 14:24:40,840 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-97
+2018-09-26 14:24:40,840 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-98
+2018-09-26 14:24:40,841 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-99
+2018-09-26 14:24:40,841 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-100
+2018-09-26 14:24:40,842 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-101
+2018-09-26 14:24:41,847 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-102
+2018-09-26 14:24:41,847 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-103
+2018-09-26 14:24:41,848 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-104
+2018-09-26 14:24:41,848 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-105
+2018-09-26 14:24:41,848 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-106
+2018-09-26 14:24:41,849 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-107
+2018-09-26 14:24:41,850 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-108
+2018-09-26 14:24:42,855 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-109
+2018-09-26 14:24:42,855 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-110
+2018-09-26 14:24:42,855 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-111
+2018-09-26 14:24:42,855 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-112
+2018-09-26 14:24:42,856 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-113
+2018-09-26 14:24:42,856 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-114
+2018-09-26 14:24:42,857 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-115
+2018-09-26 14:24:43,862 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-116
+2018-09-26 14:24:43,862 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-117
+2018-09-26 14:24:43,862 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-118
+2018-09-26 14:24:43,863 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-119
+2018-09-26 14:24:43,863 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-120
+2018-09-26 14:24:43,863 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-121
+2018-09-26 14:24:44,869 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-122
+2018-09-26 14:24:44,870 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-123
+2018-09-26 14:24:44,871 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-124
+2018-09-26 14:24:44,871 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-125
+2018-09-26 14:24:44,871 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-126
+2018-09-26 14:24:44,872 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-127
+2018-09-26 14:24:44,873 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-128
+2018-09-26 14:24:45,877 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-129
+2018-09-26 14:24:45,877 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-130
+2018-09-26 14:24:45,878 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-131
+2018-09-26 14:24:45,878 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-132
+2018-09-26 14:24:45,878 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-133
+2018-09-26 14:24:45,878 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-134
+2018-09-26 14:24:45,879 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-135
+2018-09-26 14:24:46,881 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-136
+2018-09-26 14:24:46,881 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-137
+2018-09-26 14:24:46,881 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-138
+2018-09-26 14:24:46,882 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-139
+2018-09-26 14:24:46,882 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-140
+2018-09-26 14:24:46,882 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-141
+2018-09-26 14:24:46,883 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-142
+2018-09-26 14:24:47,888 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-143
+2018-09-26 14:24:47,889 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-144
+2018-09-26 14:24:47,889 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-145
+2018-09-26 14:24:47,889 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-146
+2018-09-26 14:24:47,890 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-147
+2018-09-26 14:24:47,891 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-148
+2018-09-26 14:24:48,896 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-149
+2018-09-26 14:24:48,896 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-150
+2018-09-26 14:24:48,896 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-151
+2018-09-26 14:24:48,897 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-152
+2018-09-26 14:24:48,897 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-153
+2018-09-26 14:24:48,897 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-154
+2018-09-26 14:24:48,898 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-155
+2018-09-26 14:24:49,901 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-156
+2018-09-26 14:24:49,901 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-158
+2018-09-26 14:24:49,901 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-157
+2018-09-26 14:24:49,902 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-159
+2018-09-26 14:24:49,902 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-160
+2018-09-26 14:24:49,902 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-161
+2018-09-26 14:24:49,903 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-162
+2018-09-26 14:24:50,907 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-163
+2018-09-26 14:24:50,907 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-164
+2018-09-26 14:24:50,907 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-165
+2018-09-26 14:24:50,907 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-166
+2018-09-26 14:24:50,908 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-167
+2018-09-26 14:24:50,908 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-168
+2018-09-26 14:24:51,913 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-169
+2018-09-26 14:24:51,913 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-170
+2018-09-26 14:24:51,913 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-171
+2018-09-26 14:24:51,914 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-172
+2018-09-26 14:24:51,914 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-173
+2018-09-26 14:24:51,914 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-174
+2018-09-26 14:24:51,915 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-175
+2018-09-26 14:24:52,917 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-176
+2018-09-26 14:24:52,917 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-177
+2018-09-26 14:24:52,918 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-178
+2018-09-26 14:24:52,918 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-179
+2018-09-26 14:24:52,918 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-180
+2018-09-26 14:24:52,918 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-181
+2018-09-26 14:24:52,919 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-182
+2018-09-26 14:24:53,922 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-183
+2018-09-26 14:24:53,922 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-184
+2018-09-26 14:24:53,923 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-185
+2018-09-26 14:24:53,923 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-186
+2018-09-26 14:24:53,923 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-187
+2018-09-26 14:24:53,923 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-188
+2018-09-26 14:24:53,924 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-189
+2018-09-26 14:24:54,928 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-190
+2018-09-26 14:24:54,928 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-191
+2018-09-26 14:24:54,928 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-192
+2018-09-26 14:24:54,928 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-193
+2018-09-26 14:24:54,929 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-194
+2018-09-26 14:24:54,929 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-195
+2018-09-26 14:24:55,931 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-196
+2018-09-26 14:24:55,931 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-197
+2018-09-26 14:24:55,932 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-198
+2018-09-26 14:24:55,932 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-199
+2018-09-26 14:24:55,951 INFO o.a.j.t.JMeterThread: Thread started: carsPerf 1-200
+2018-09-26 14:29:55,855 INFO c.b.j.t.c.ConcurrencyThreadStarter: Done supplying threads
+2018-09-26 14:29:55,869 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-70
+2018-09-26 14:29:55,869 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-74
+2018-09-26 14:29:55,870 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-24
+2018-09-26 14:29:55,869 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-197
+2018-09-26 14:29:55,870 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-70
+2018-09-26 14:29:55,869 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-196
+2018-09-26 14:29:55,869 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-69
+2018-09-26 14:29:55,870 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-74
+2018-09-26 14:29:55,869 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-109
+2018-09-26 14:29:55,870 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-197
+2018-09-26 14:29:55,870 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-67
+2018-09-26 14:29:55,870 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-109
+2018-09-26 14:29:55,870 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-65
+2018-09-26 14:29:55,870 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-67
+2018-09-26 14:29:55,870 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-65
+2018-09-26 14:29:55,870 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-69
+2018-09-26 14:29:55,871 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-24
+2018-09-26 14:29:55,870 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-196
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-68
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-150
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-66
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-149
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-150
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-66
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-26
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-25
+2018-09-26 14:29:55,908 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-155
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-22
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-27
+2018-09-26 14:29:55,910 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-155
+2018-09-26 14:29:55,910 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-22
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-28
+2018-09-26 14:29:55,910 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-27
+2018-09-26 14:29:55,910 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-28
+2018-09-26 14:29:55,909 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-25
+2018-09-26 14:29:55,908 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-26
+2018-09-26 14:29:55,908 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-153
+2018-09-26 14:29:55,908 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-149
+2018-09-26 14:29:55,915 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-153
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-152
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-151
+2018-09-26 14:29:55,907 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-68
+2018-09-26 14:29:55,916 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-152
+2018-09-26 14:29:55,924 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-151
+2018-09-26 14:29:56,149 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-138
+2018-09-26 14:29:56,149 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-52
+2018-09-26 14:29:56,149 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-138
+2018-09-26 14:29:56,149 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-139
+2018-09-26 14:29:56,149 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-52
+2018-09-26 14:29:56,150 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-139
+2018-09-26 14:29:56,152 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-140
+2018-09-26 14:29:56,152 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-140
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-54
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-120
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-162
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-116
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-54
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-120
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-158
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-162
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-137
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-158
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-137
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-141
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-136
+2018-09-26 14:29:56,161 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-142
+2018-09-26 14:29:56,158 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-33
+2018-09-26 14:29:56,161 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-32
+2018-09-26 14:29:56,161 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-136
+2018-09-26 14:29:56,161 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-33
+2018-09-26 14:29:56,161 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-118
+2018-09-26 14:29:56,161 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-157
+2018-09-26 14:29:56,162 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-142
+2018-09-26 14:29:56,163 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-34
+2018-09-26 14:29:56,161 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-121
+2018-09-26 14:29:56,163 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-121
+2018-09-26 14:29:56,161 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-116
+2018-09-26 14:29:56,161 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-117
+2018-09-26 14:29:56,161 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-119
+2018-09-26 14:29:56,160 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-141
+2018-09-26 14:29:56,162 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-118
+2018-09-26 14:29:56,168 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-119
+2018-09-26 14:29:56,168 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-117
+2018-09-26 14:29:56,161 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-32
+2018-09-26 14:29:56,168 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-157
+2018-09-26 14:29:56,168 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-34
+2018-09-26 14:29:56,164 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-159
+2018-09-26 14:29:56,169 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-159
+2018-09-26 14:29:56,205 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-124
+2018-09-26 14:29:56,205 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-36
+2018-09-26 14:29:56,206 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-128
+2018-09-26 14:29:56,205 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-39
+2018-09-26 14:29:56,206 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-36
+2018-09-26 14:29:56,206 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-128
+2018-09-26 14:29:56,206 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-124
+2018-09-26 14:29:56,206 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-39
+2018-09-26 14:29:56,206 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-110
+2018-09-26 14:29:56,206 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-111
+2018-09-26 14:29:56,207 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-111
+2018-09-26 14:29:56,207 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-110
+2018-09-26 14:29:56,207 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-114
+2018-09-26 14:29:56,207 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-114
+2018-09-26 14:29:56,207 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-112
+2018-09-26 14:29:56,207 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-112
+2018-09-26 14:29:56,207 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-77
+2018-09-26 14:29:56,207 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-77
+2018-09-26 14:29:56,208 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-73
+2018-09-26 14:29:56,208 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-73
+2018-09-26 14:29:56,208 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-199
+2018-09-26 14:29:56,208 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-75
+2018-09-26 14:29:56,208 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-29
+2018-09-26 14:29:56,208 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-75
+2018-09-26 14:29:56,208 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-29
+2018-09-26 14:29:56,208 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-199
+2018-09-26 14:29:56,220 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-31
+2018-09-26 14:29:56,220 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-79
+2018-09-26 14:29:56,220 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-14
+2018-09-26 14:29:56,220 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-79
+2018-09-26 14:29:56,220 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-156
+2018-09-26 14:29:56,220 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-76
+2018-09-26 14:29:56,220 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-31
+2018-09-26 14:29:56,220 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-156
+2018-09-26 14:29:56,220 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-13
+2018-09-26 14:29:56,220 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-14
+2018-09-26 14:29:56,220 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-13
+2018-09-26 14:29:56,220 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-78
+2018-09-26 14:29:56,221 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-78
+2018-09-26 14:29:56,221 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-76
+2018-09-26 14:29:56,222 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-115
+2018-09-26 14:29:56,222 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-81
+2018-09-26 14:29:56,222 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-115
+2018-09-26 14:29:56,222 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-81
+2018-09-26 14:29:56,223 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-200
+2018-09-26 14:29:56,223 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-35
+2018-09-26 14:29:56,223 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-37
+2018-09-26 14:29:56,223 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-200
+2018-09-26 14:29:56,223 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-35
+2018-09-26 14:29:56,223 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-37
+2018-09-26 14:29:56,223 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-80
+2018-09-26 14:29:56,223 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-80
+2018-09-26 14:29:56,224 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-41
+2018-09-26 14:29:56,225 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-125
+2018-09-26 14:29:56,225 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-41
+2018-09-26 14:29:56,225 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-125
+2018-09-26 14:29:56,225 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-127
+2018-09-26 14:29:56,225 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-127
+2018-09-26 14:29:56,225 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-123
+2018-09-26 14:29:56,225 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-126
+2018-09-26 14:29:56,226 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-123
+2018-09-26 14:29:56,226 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-122
+2018-09-26 14:29:56,226 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-126
+2018-09-26 14:29:56,226 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-122
+2018-09-26 14:29:56,226 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-40
+2018-09-26 14:29:56,226 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-40
+2018-09-26 14:29:56,259 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-161
+2018-09-26 14:29:56,259 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-160
+2018-09-26 14:29:56,259 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-161
+2018-09-26 14:29:56,259 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-30
+2018-09-26 14:29:56,259 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-160
+2018-09-26 14:29:56,260 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-30
+2018-09-26 14:29:56,276 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-38
+2018-09-26 14:29:56,277 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-38
+2018-09-26 14:29:56,285 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-72
+2018-09-26 14:29:56,285 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-71
+2018-09-26 14:29:56,285 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-198
+2018-09-26 14:29:56,285 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-71
+2018-09-26 14:29:56,285 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-72
+2018-09-26 14:29:56,285 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-113
+2018-09-26 14:29:56,285 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-198
+2018-09-26 14:29:56,285 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-113
+2018-09-26 14:29:56,324 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-167
+2018-09-26 14:29:56,324 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-167
+2018-09-26 14:29:56,334 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-164
+2018-09-26 14:29:56,335 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-164
+2018-09-26 14:29:56,335 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-166
+2018-09-26 14:29:56,335 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-166
+2018-09-26 14:29:56,335 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-163
+2018-09-26 14:29:56,335 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-163
+2018-09-26 14:29:56,335 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-165
+2018-09-26 14:29:56,335 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-165
+2018-09-26 14:29:56,335 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-168
+2018-09-26 14:29:56,336 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-168
+2018-09-26 14:29:56,655 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-100
+2018-09-26 14:29:56,656 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-100
+2018-09-26 14:29:56,709 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-9
+2018-09-26 14:29:56,709 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-8
+2018-09-26 14:29:56,709 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-87
+2018-09-26 14:29:56,709 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-9
+2018-09-26 14:29:56,709 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-85
+2018-09-26 14:29:56,709 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-186
+2018-09-26 14:29:56,710 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-87
+2018-09-26 14:29:56,710 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-186
+2018-09-26 14:29:56,709 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-86
+2018-09-26 14:29:56,709 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-8
+2018-09-26 14:29:56,710 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-86
+2018-09-26 14:29:56,710 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-85
+2018-09-26 14:29:56,815 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-88
+2018-09-26 14:29:56,815 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-175
+2018-09-26 14:29:56,815 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-88
+2018-09-26 14:29:56,815 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-175
+2018-09-26 14:29:56,815 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-1
+2018-09-26 14:29:56,816 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-1
+2018-09-26 14:29:56,816 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-83
+2018-09-26 14:29:56,816 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-83
+2018-09-26 14:29:56,822 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-57
+2018-09-26 14:29:56,822 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-185
+2018-09-26 14:29:56,822 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-57
+2018-09-26 14:29:56,822 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-185
+2018-09-26 14:29:56,826 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-147
+2018-09-26 14:29:56,826 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-147
+2018-09-26 14:29:56,827 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-148
+2018-09-26 14:29:56,827 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-148
+2018-09-26 14:29:56,827 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-97
+2018-09-26 14:29:56,827 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-187
+2018-09-26 14:29:56,827 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-97
+2018-09-26 14:29:56,828 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-187
+2018-09-26 14:29:56,867 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-84
+2018-09-26 14:29:56,868 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-84
+2018-09-26 14:29:56,904 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-169
+2018-09-26 14:29:56,904 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-170
+2018-09-26 14:29:56,904 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-169
+2018-09-26 14:29:56,904 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-170
+2018-09-26 14:29:56,905 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-172
+2018-09-26 14:29:56,905 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-172
+2018-09-26 14:29:56,905 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-171
+2018-09-26 14:29:56,905 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-171
+2018-09-26 14:29:56,906 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-82
+2018-09-26 14:29:56,906 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-82
+2018-09-26 14:29:56,907 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-173
+2018-09-26 14:29:56,907 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-174
+2018-09-26 14:29:56,907 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-173
+2018-09-26 14:29:56,907 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-174
+2018-09-26 14:29:57,155 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-12
+2018-09-26 14:29:57,156 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-12
+2018-09-26 14:29:57,156 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-189
+2018-09-26 14:29:57,156 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-188
+2018-09-26 14:29:57,156 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-189
+2018-09-26 14:29:57,156 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-98
+2018-09-26 14:29:57,156 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-96
+2018-09-26 14:29:57,156 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-188
+2018-09-26 14:29:57,156 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-96
+2018-09-26 14:29:57,156 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-98
+2018-09-26 14:29:57,157 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-99
+2018-09-26 14:29:57,157 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-99
+2018-09-26 14:29:57,159 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-146
+2018-09-26 14:29:57,159 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-10
+2018-09-26 14:29:57,159 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-59
+2018-09-26 14:29:57,159 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-183
+2018-09-26 14:29:57,159 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-146
+2018-09-26 14:29:57,159 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-144
+2018-09-26 14:29:57,159 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-59
+2018-09-26 14:29:57,159 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-10
+2018-09-26 14:29:57,159 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-144
+2018-09-26 14:29:57,159 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-183
+2018-09-26 14:29:57,160 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-143
+2018-09-26 14:29:57,160 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-143
+2018-09-26 14:29:57,161 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-61
+2018-09-26 14:29:57,161 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-56
+2018-09-26 14:29:57,161 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-61
+2018-09-26 14:29:57,162 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-56
+2018-09-26 14:29:57,162 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-145
+2018-09-26 14:29:57,162 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-145
+2018-09-26 14:29:57,163 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-11
+2018-09-26 14:29:57,163 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-101
+2018-09-26 14:29:57,164 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-101
+2018-09-26 14:29:57,164 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-11
+2018-09-26 14:29:57,167 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-58
+2018-09-26 14:29:57,167 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-184
+2018-09-26 14:29:57,167 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-60
+2018-09-26 14:29:57,167 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-55
+2018-09-26 14:29:57,167 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-60
+2018-09-26 14:29:57,167 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-184
+2018-09-26 14:29:57,167 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-58
+2018-09-26 14:29:57,167 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-55
+2018-09-26 14:29:57,319 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-16
+2018-09-26 14:29:57,319 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-47
+2018-09-26 14:29:57,319 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-16
+2018-09-26 14:29:57,320 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-47
+2018-09-26 14:29:57,320 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-103
+2018-09-26 14:29:57,320 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-103
+2018-09-26 14:29:57,362 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-43
+2018-09-26 14:29:57,362 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-46
+2018-09-26 14:29:57,362 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-44
+2018-09-26 14:29:57,362 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-134
+2018-09-26 14:29:57,362 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-134
+2018-09-26 14:29:57,362 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-43
+2018-09-26 14:29:57,362 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-46
+2018-09-26 14:29:57,363 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-44
+2018-09-26 14:29:57,371 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-19
+2018-09-26 14:29:57,371 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-19
+2018-09-26 14:29:57,372 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-105
+2018-09-26 14:29:57,372 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-105
+2018-09-26 14:29:57,706 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-7
+2018-09-26 14:29:57,706 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-95
+2018-09-26 14:29:57,706 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-42
+2018-09-26 14:29:57,706 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-48
+2018-09-26 14:29:57,706 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-7
+2018-09-26 14:29:57,706 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-45
+2018-09-26 14:29:57,706 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-42
+2018-09-26 14:29:57,706 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-130
+2018-09-26 14:29:57,706 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-130
+2018-09-26 14:29:57,706 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-95
+2018-09-26 14:29:57,706 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-48
+2018-09-26 14:29:57,706 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-45
+2018-09-26 14:29:57,706 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-133
+2018-09-26 14:29:57,707 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-133
+2018-09-26 14:29:57,709 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-195
+2018-09-26 14:29:57,709 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-195
+2018-09-26 14:29:57,786 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-6
+2018-09-26 14:29:57,786 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-131
+2018-09-26 14:29:57,786 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-5
+2018-09-26 14:29:57,786 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-131
+2018-09-26 14:29:57,786 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-6
+2018-09-26 14:29:57,786 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-5
+2018-09-26 14:29:57,825 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-191
+2018-09-26 14:29:57,825 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-194
+2018-09-26 14:29:57,825 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-191
+2018-09-26 14:29:57,825 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-194
+2018-09-26 14:29:57,827 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-20
+2018-09-26 14:29:57,827 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-15
+2018-09-26 14:29:57,827 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-190
+2018-09-26 14:29:57,827 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-20
+2018-09-26 14:29:57,827 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-15
+2018-09-26 14:29:57,827 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-190
+2018-09-26 14:29:57,827 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-102
+2018-09-26 14:29:57,827 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-102
+2018-09-26 14:29:57,843 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-193
+2018-09-26 14:29:57,844 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-21
+2018-09-26 14:29:57,844 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-193
+2018-09-26 14:29:57,844 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-21
+2018-09-26 14:29:57,844 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-104
+2018-09-26 14:29:57,844 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-104
+2018-09-26 14:29:57,874 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-192
+2018-09-26 14:29:57,874 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-63
+2018-09-26 14:29:57,874 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-192
+2018-09-26 14:29:57,874 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-17
+2018-09-26 14:29:57,874 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-63
+2018-09-26 14:29:57,874 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-18
+2018-09-26 14:29:57,874 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-107
+2018-09-26 14:29:57,874 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-108
+2018-09-26 14:29:57,875 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-18
+2018-09-26 14:29:57,875 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-108
+2018-09-26 14:29:57,875 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-17
+2018-09-26 14:29:57,875 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-107
+2018-09-26 14:29:57,875 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-106
+2018-09-26 14:29:57,875 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-106
+2018-09-26 14:29:58,168 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-89
+2018-09-26 14:29:58,168 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-92
+2018-09-26 14:29:58,168 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-4
+2018-09-26 14:29:58,168 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-92
+2018-09-26 14:29:58,168 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-89
+2018-09-26 14:29:58,168 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-4
+2018-09-26 14:29:58,168 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-90
+2018-09-26 14:29:58,168 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-135
+2018-09-26 14:29:58,168 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-94
+2018-09-26 14:29:58,168 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-135
+2018-09-26 14:29:58,168 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-90
+2018-09-26 14:29:58,168 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-94
+2018-09-26 14:29:58,168 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-2
+2018-09-26 14:29:58,169 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-2
+2018-09-26 14:29:58,194 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-91
+2018-09-26 14:29:58,194 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-129
+2018-09-26 14:29:58,194 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-129
+2018-09-26 14:29:58,194 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-180
+2018-09-26 14:29:58,194 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-180
+2018-09-26 14:29:58,194 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-181
+2018-09-26 14:29:58,195 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-181
+2018-09-26 14:29:58,195 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-177
+2018-09-26 14:29:58,195 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-176
+2018-09-26 14:29:58,195 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-177
+2018-09-26 14:29:58,195 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-93
+2018-09-26 14:29:58,195 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-176
+2018-09-26 14:29:58,195 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-178
+2018-09-26 14:29:58,195 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-182
+2018-09-26 14:29:58,196 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-3
+2018-09-26 14:29:58,196 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-178
+2018-09-26 14:29:58,196 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-3
+2018-09-26 14:29:58,196 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-182
+2018-09-26 14:29:58,196 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-93
+2018-09-26 14:29:58,196 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-132
+2018-09-26 14:29:58,195 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-179
+2018-09-26 14:29:58,195 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-91
+2018-09-26 14:29:58,197 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-179
+2018-09-26 14:29:58,196 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-132
+2018-09-26 14:29:58,209 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-51
+2018-09-26 14:29:58,209 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-49
+2018-09-26 14:29:58,209 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-51
+2018-09-26 14:29:58,209 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-49
+2018-09-26 14:29:58,222 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-50
+2018-09-26 14:29:58,222 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-53
+2018-09-26 14:29:58,222 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-50
+2018-09-26 14:29:58,222 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-53
+2018-09-26 14:29:58,289 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-64
+2018-09-26 14:29:58,289 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-62
+2018-09-26 14:29:58,289 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-23
+2018-09-26 14:29:58,289 INFO o.a.j.t.JMeterThread: Thread is done: carsPerf 1-154
+2018-09-26 14:29:58,290 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-62
+2018-09-26 14:29:58,289 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-64
+2018-09-26 14:29:58,290 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-154
+2018-09-26 14:29:58,290 INFO o.a.j.t.JMeterThread: Thread finished: carsPerf 1-23
+2018-09-26 14:29:58,290 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-09-26 14:29:58,294 INFO o.a.j.e.StandardJMeterEngine: Forced JVM shutdown requested at end of test

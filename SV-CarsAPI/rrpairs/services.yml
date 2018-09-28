@@ -4,7 +4,7 @@ definition: "./vrs_template.xml"
 services:
     - name: cars
       group: cars
-      capacity: 2
+      capacity: 10
       thinkScale: 200
       executionMode: "EFFICIENT"
       definition: "./cars/cars.vrs"

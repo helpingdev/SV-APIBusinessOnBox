@@ -1,0 +1,5 @@
+---
+modules:
+  blazemeter:
+    test: SV-CarsAPI Test
+    cloud-mode: taurusCloud
