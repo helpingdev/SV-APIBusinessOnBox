@@ -1,7 +1,7 @@
 ---
 execution:
-#- locations:
-#    harbor-5b8d61b8c7dc97f85d7b23c8: 1
+- locations:
+   harbor-5b8d61b8c7dc97f85d7b23c8: 1
   scenario: carsPerf
   concurrency: 200
   ramp-up: 30s
@@ -18,33 +18,33 @@ scenarios:
       - transaction: Test
         force-parent-sample: false
         do:
-          - url: 'http://gaspa03mac.local:7901/inventory/carMake/index.json'
+          - url: 'http://192.168.0.24:7901/inventory/carMake/index.json'
             method: GET
-            label: 'http://gaspa03mac.local:7901/inventory/carMake/index.json'
+            label: 'http://192.168.0.24:7901/inventory/carMake/index.json'
             think-time: 0ms
             headers: {}
-          - url: 'http://gaspa03mac.local:7901/inventory/carMake/3/models.json'
+          - url: 'http://192.168.0.24:7901/inventory/carMake/3/models.json'
             method: GET
-            label: 'http://gaspa03mac.local:7901/inventory/carMake/3/models.json'
+            label: 'http://192.168.0.24:7901/inventory/carMake/3/models.json'
             think-time: 0ms
             headers: {}
-          - url: 'http://gaspa03mac.local:7901/inventory/carMake/2/models.json'
+          - url: 'http://192.168.0.24:7901/inventory/carMake/2/models.json'
             method: GET
-            label: 'http://gaspa03mac.local:7901/inventory/carMake/2/models.json'
+            label: 'http://192.168.0.24:7901/inventory/carMake/2/models.json'
             think-time: 0ms
             headers: {}
-          - url: 'http://gaspa03mac.local:7901/inventory/carMake/1/models.json'
+          - url: 'http://192.168.0.24:7901/inventory/carMake/1/models.json'
             method: GET
-            label: 'http://gaspa03mac.local:7901/inventory/carMake/1/models.json'
+            label: 'http://192.168.0.24:7901/inventory/carMake/1/models.json'
             think-time: 0ms
             headers: {}
-          - url: 'http://gaspa03mac.local:7901/inventory/carInventory/2T1KR32E37C639014'
+          - url: 'http://192.168.0.24:7901/inventory/carInventory/2T1KR32E37C639014'
             method: GET
-            label: 'http://gaspa03mac.local:7901/inventory/carInventory/2T1KR32E37C639014'
+            label: 'http://192.168.0.24:7901/inventory/carInventory/2T1KR32E37C639014'
             think-time: 0ms
             headers: {}
-          - url: 'http://gaspa03mac.local:7901/inventory/carInventory/2T1KR32EERATDH'
+          - url: 'http://192.168.0.24:7901/inventory/carInventory/2T1KR32EERATDH'
             method: GET
-            label: 'http://gaspa03mac.local:7901/inventory/carInventory/2T1KR32EERATDH'
+            label: 'http://192.168.0.24:7901/inventory/carInventory/2T1KR32EERATDH'
             think-time: 0ms
             headers: {}
