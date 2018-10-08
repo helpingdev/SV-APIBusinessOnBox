@@ -1,26 +1,26 @@
-2018-10-05 12:56:01,899 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
-2018-10-05 12:56:02,001 INFO o.j.r.JARSourceHTTP: Found cached repo
-2018-10-05 12:56:02,199 INFO o.j.r.PluginManager: Plugins Status: [jpgc-functions=2.1, jpgc-casutg=2.5, jpgc-dummy=0.2, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.6, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.1, jpgc-tst=2.5, jmeter-core=4.0, jmeter-ftp=4.0, jmeter-http=4.0, jmeter-jdbc=4.0, jmeter-jms=4.0, jmeter-junit=4.0, jmeter-java=4.0, jmeter-ldap=4.0, jmeter-mail=4.0, jmeter-mongodb=4.0, jmeter-native=4.0, jmeter-tcp=4.0, jmeter-components=4.0]
-2018-10-05 12:56:02,200 INFO o.j.r.PluginManagerCMD: Params line is: /Users/gaspa03/git/SV-APIBusinessOnBox/SV-CarsAPI/bzt/2018-10-05_12-55-59.731192/modified_requests.jmx
-2018-10-05 12:56:02,430 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2018-10-05 12:56:02,443 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2018-10-05 12:56:02,447 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
-2018-10-05 12:56:02,481 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
-2018-10-05 12:56:02,485 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
-2018-10-05 12:56:02,487 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [option]
-2018-10-05 12:56:02,487 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [add]
-2018-10-05 12:56:02,487 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [add_host]
-2018-10-05 12:56:02,487 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [delete]
-2018-10-05 12:56:02,488 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [delete_host]
-2018-10-05 12:56:02,488 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [use_system_dns_resolver]
-2018-10-05 12:56:02,488 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [use_custom_dns_resolver]
-2018-10-05 12:56:02,488 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [dns_hostname_or_ip]
-2018-10-05 12:56:02,488 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [dns_host]
-2018-10-05 12:56:02,488 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [dns_hostname_or_ip]
-2018-10-05 12:56:02,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-10-05 12:56:02,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-10-05 12:56:02,532 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-10-05 12:56:02,533 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2018-10-05 12:56:02,533 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2018-10-05 12:56:02,533 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2018-10-05 12:56:02,613 INFO o.j.r.PluginManager: Finishing without changes
+2018-10-08 14:25:04,997 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2018-10-08 14:25:05,087 INFO o.j.r.JARSourceHTTP: Found cached repo
+2018-10-08 14:25:05,234 INFO o.j.r.PluginManager: Plugins Status: [jpgc-functions=2.1, jpgc-casutg=2.5, jpgc-dummy=0.2, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.6, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.1, jpgc-tst=2.5, jmeter-core=4.0, jmeter-ftp=4.0, jmeter-http=4.0, jmeter-jdbc=4.0, jmeter-jms=4.0, jmeter-junit=4.0, jmeter-java=4.0, jmeter-ldap=4.0, jmeter-mail=4.0, jmeter-mongodb=4.0, jmeter-native=4.0, jmeter-tcp=4.0, jmeter-components=4.0]
+2018-10-08 14:25:05,235 INFO o.j.r.PluginManagerCMD: Params line is: /Users/gaspa03/git/SV-APIBusinessOnBox/SV-CarsAPI/bzt/2018-10-08_14-25-03.112841/modified_requests.jmx
+2018-10-08 14:25:05,414 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-10-08 14:25:05,427 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-10-08 14:25:05,431 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-10-08 14:25:05,463 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2018-10-08 14:25:05,466 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2018-10-08 14:25:05,468 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [option]
+2018-10-08 14:25:05,468 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [add]
+2018-10-08 14:25:05,469 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [add_host]
+2018-10-08 14:25:05,469 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [delete]
+2018-10-08 14:25:05,469 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [delete_host]
+2018-10-08 14:25:05,469 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [use_system_dns_resolver]
+2018-10-08 14:25:05,469 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [use_custom_dns_resolver]
+2018-10-08 14:25:05,469 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [dns_hostname_or_ip]
+2018-10-08 14:25:05,469 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [dns_host]
+2018-10-08 14:25:05,469 WARN o.a.j.u.JMeterUtils: ERROR! Resource string not found: [dns_hostname_or_ip]
+2018-10-08 14:25:05,503 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-10-08 14:25:05,503 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-10-08 14:25:05,503 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-10-08 14:25:05,503 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-10-08 14:25:05,503 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-10-08 14:25:05,503 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-10-08 14:25:05,577 INFO o.j.r.PluginManager: Finishing without changes
