@@ -5,7 +5,7 @@ services:
     - name: cars
       group: cars
       capacity: 10
-      thinkScale: 200
+      thinkScale: 400
       definition: "./cars/cars.vrs"
       workingFolder: ./cars
       configuration:
