@@ -6,4 +6,4 @@
 **/2018*
 *.log
 *.log
-SV-CarsAPI/target/maven-archiver/pom.properties
+**/maven-archiver
