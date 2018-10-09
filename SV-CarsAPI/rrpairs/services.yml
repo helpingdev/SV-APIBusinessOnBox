@@ -5,21 +5,10 @@ services:
     - name: cars
       group: cars
       capacity: 10
-      thinkScale: 500
+      thinkScale: 200
       definition: "./cars/cars.vrs"
       workingFolder: ./cars
       configuration:
         listenport: '7901'
       targetedVSE: 
       - vse-perf
-      
-    - name: getAddress
-      group: getAddress
-      capacity: 1
-      thinkScale: 100
-      definition: "./getAddress/getAddress.vrs"
-      workingFolder: ./cars
-      configuration:
-        listenport: '7801'
-      targetedVSE: 
-      - VSE  
