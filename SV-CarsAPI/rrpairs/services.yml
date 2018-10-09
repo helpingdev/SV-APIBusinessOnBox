@@ -4,7 +4,7 @@ definition: "./vrs_template.xml"
 services:
     - name: cars
       group: cars
-      capacity: 10
+      capacity: 15
       thinkScale: 200
       definition: "./cars/cars.vrs"
       workingFolder: ./cars
