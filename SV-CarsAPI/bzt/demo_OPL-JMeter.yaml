@@ -20,13 +20,13 @@ scenarios:
       - transaction: Test
         force-parent-sample: false
         do:
-          - url: 'http://172.20.10.2:7901/inventory/carMake/index.json'
+          - url: 'http://192.168.1.141:7901/inventory/carMake/index.json'
             method: GET
-            label: 'http://172.20.10.2:7901/inventory/carMake/index.json'
+            label: 'http://192.168.1.141:7901/inventory/carMake/index.json'
             think-time: 0ms
             headers: {}
-          - url: 'http://172.20.10.2:7901/inventory/carMake/index.json'
+          - url: 'http://192.168.1.141:7901/inventory/carMake/index.json'
             method: GET
-            label: 'http://172.20.10.2:7901/inventory/carMake/index.json'
+            label: 'http://192.168.1.141:7901/inventory/carMake/index.json'
             think-time: 0ms
             headers: {}
