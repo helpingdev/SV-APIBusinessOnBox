@@ -12,19 +12,20 @@ services:
         listenport: '7901'
       targetedVSE: 
       - vse-perf
-    - name: getAddress
-      group: getAddress
-      definition: "./getAddress/getAddress.vrs"
-      workingFolder: ./cars
+    - name: Home
+      group: Vodafone
+      definition: "./vodafone_home/vodafone_home.vrs"
+      workingFolder: ./vodafone_home
       configuration:
-        listenport: '7801'
+        listenport: '8001'
+      targetedVSE: 
+      - vse-perf
+    - name: Home
+      group: Vodafone
+      definition: "./vodafone_home/vodafone_home.vrs"
+      workingFolder: ./vodafone_home
+      configuration:
+        listenport: '8002'
       targetedVSE: 
       - VSE
-    - name: cars
-      group: cars
-      definition: "./cars/cars.vrs"
-      workingFolder: ./cars
-      configuration:
-        listenport: '7802'
-      targetedVSE: 
-      - VSE
+      

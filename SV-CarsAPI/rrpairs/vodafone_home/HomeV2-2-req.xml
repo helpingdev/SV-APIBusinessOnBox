@@ -1,0 +1,6 @@
+POST /Home/HomeService.svc HTTP/1.1
+ Content-Type: text/xml; charset=utf-8
+Content-Length: 633
+User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_77)
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ns="http://ONO/CanalWeb/ESB/Home/1.0">\r   <soap:Header/>\r   <soap:Body>\r      <ns:ConsultaPromocionesCliente>\r         <!--Optional:-->\r         <ns:IdCliente>?</ns:IdCliente>\r         <!--Optional:-->\r         <ns:IdServicio>?</ns:IdServicio>\r         <!--Optional:-->\r         <ns:FechaInicio>?</ns:FechaInicio>\r         <!--Optional:-->\r         <ns:FechaFin>?</ns:FechaFin>\r         <!--Optional:-->\r         <ns:EstadoPromocion>3</ns:EstadoPromocion>\r      </ns:ConsultaPromocionesCliente>\r   </soap:Body>\r</soap:Envelope>

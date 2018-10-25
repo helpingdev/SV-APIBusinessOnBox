@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<RecordingSession nonLeaf="WIDE" leaf="LOOSE" asObject="true">
+<Protocol type="com.itko.lisa.vse.stateful.protocol.http.HttpProtocolHandler">
+<Transport allAreStateless="true" asObject="true" desensitize="false" duptxns="false">
+<exportFile></exportFile>
+<RequestSide>
+<Protocol type="com.itko.lisa.vse.stateful.protocol.ws.WSSOAPProtocolHandler">
+
+</Protocol>
+</RequestSide>
+</Transport>
+<listenPort>$listenport</listenPort>
+		<targetHost>$targetHost</targetHost>
+		<targetPort>$targetPort</targetPort>
+<useGateway>true</useGateway>
+<hostHeaderPassThrough>false</hostHeaderPassThrough>
+<ssl toClient="false" sslClientAuthType="none" toServer="false"/>
+<basePath>/</basePath>
+</Protocol>
+</RecordingSession>

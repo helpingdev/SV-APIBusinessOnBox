@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope" xmlns:xs="http://www.w3.org/2001/XMLSchema">  <soapenv:Body>    <RegistrarTryBuyRespuesta xmlns="http://ONO/CanalWeb/ESB/Home/1.0">      <Resultado>5QpSfOe</Resultado>    </RegistrarTryBuyRespuesta>  </soapenv:Body></soapenv:Envelope>
